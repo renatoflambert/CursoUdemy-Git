@@ -8,7 +8,9 @@ namespace IntroGit
         {
             Console.WriteLine("Hello GitHub!");
             Console.WriteLine("Digite algo: ");
-            Console.ReadLine();
+            string digitado = Console.ReadLine();
+
+            Console.WriteLine("Você digitou: {0}",digitado);
         }
     }
 }
